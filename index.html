@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<form action="/form-handling-url" method="post">
+    <fieldset>
+        <legend>Add User</legend>
+
+        <div>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="first_name">
+        </div>
+
+        <div>
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="last_name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_address">
+        </div>
+
+        <div>
+            <label for="status">Status</label>
+            <select id="status" name="user_current_status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Choose your favorite programming language:</p>
+            <button name="html">HTML</button>
+            <button name="css">CSS</button>
+            <button name="javascript">JavaScript</button>
+        </div>
+
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+
+        <div>
+            <label for="date">Current Date</label>
+            <input type="date" id="date" name="Current Date">
+        </div>
+
+        <div>
+            <label for="newsletter">Sign up for newsletter</label>
+            <input type="checkbox" id="newsletter" name="Sign up for newsletter">
+        </div>
+
+        <div>
+            <label for="agree">Agree to terms and conditions</label>
+            <input type="checkbox" id="agree" name="Agree to terms and conditions" </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+    </fieldset>
+
+</html>
